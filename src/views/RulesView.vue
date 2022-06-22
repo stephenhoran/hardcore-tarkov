@@ -17,6 +17,17 @@ const Rules: string[] = [
 
 <template>
   <Card class="align-content-center">
+    <template #header>
+      Objective
+    </template>
+    <template #content>
+      Turn in all streamer items to the collector quest. Level requirement does not need to be satisfied.
+    </template>
+  </Card>
+  <Card class="align-content-center">
+    <template #header>
+      Rules
+    </template>
     <template #content>
       <ul>
         <li v-for="rule in Rules">{{ rule }}</li>

@@ -17,7 +17,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: #101010;
+  background-color: var(--surface-a);
   font-family: var(--font-family);
   font-weight: 400;
   color: var(--text-color);
