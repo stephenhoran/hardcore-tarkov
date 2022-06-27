@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {ref} from "vue";
+import Login from "@/components/Login.vue"
 
 const items = ref([
   {
@@ -34,6 +35,7 @@ function toggleDialog() {
     </template>
     <template #end>
       <Button label="Season Signup" @click="toggleDialog"></Button>
+      <Login />
     </template>
   </Menubar>
 
