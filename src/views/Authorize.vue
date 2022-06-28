@@ -16,7 +16,7 @@ params.append('client_secret', client_secret)
 params.append('client_id', client_id)
 params.append('grant_type', 'authorization_code')
 params.append('code', String(route.query['code']))
-params.append('redirect_uri', redirect_uri)
+params.append('redirect_uri', redirect_uri + "/authorize")
 
 
 console.log(params.toString())
