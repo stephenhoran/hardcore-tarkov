@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Leaderboard from '@/views/LeaderboardView.vue'
 import Rules from '@/views/RulesView.vue'
-import Authorize from '@/views/Authorize.vue'
+import Authorize from '@/views/AuthorizeView.vue'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),

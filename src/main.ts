@@ -13,6 +13,8 @@ import Menubar from 'primevue/menubar';
 import Button from 'primevue/button';
 import Dialog from 'primevue/dialog';
 import Card from 'primevue/card'
+import Avatar from "primevue/avatar";
+import SplitButton from "primevue/splitbutton";
 
 import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
@@ -28,6 +30,8 @@ app.component("Menubar", Menubar)
 app.component("Dialog", Dialog)
 app.component("Button", Button)
 app.component("Card", Card)
+app.component("Avatar", Avatar)
+app.component("SplitButton", SplitButton)
 
 app.component("DataTable", DataTable)
 app.component("Column", Column)

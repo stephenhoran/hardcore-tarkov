@@ -2,7 +2,7 @@
 import {ref} from "vue";
 import Login from "@/components/Login.vue"
 
-const items = ref([
+const items: any = ref([
   {
     label: "Leaderboard",
     to: "/",
@@ -34,7 +34,7 @@ function toggleDialog() {
       Hardcore Tarkov
     </template>
     <template #end>
-      <Button label="Season Signup" @click="toggleDialog"></Button>
+      <Button style="margin-right: 10px" label="Season Signup" @click="toggleDialog"></Button>
       <Login />
     </template>
   </Menubar>
